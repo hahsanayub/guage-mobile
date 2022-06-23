@@ -25,7 +25,7 @@
      border: none;
      /* border-bottom: 3px solid black; */
      z-index: 9999;
-     margin-left: 43%;
+     margin-left: 30%;
     margin-top: 275px;
  ">
  
@@ -45,14 +45,20 @@
     if(ranking/30 *100<50){
         opacity = 1
         background = '#ef3249'
+         document.body.style.backgroundColor ='#ef3249'
+
       }
       else if(ranking/30 *100>=50 && ranking/30 *100<70){
-      opacity = 1
+        opacity = 1
         background = "#FFBF00"
+        document.body.style.backgroundColor ='#FFBF00'
+
       }
       else if(ranking/30 *100>=70 ){
         opacity = 1
         background = '#51d097'
+        document.body.style.backgroundColor ='#51d097'
+
       }
 
     var rawData =Math.round(ranking/30*100),
