@@ -23,7 +23,6 @@
      color: black;
      background-color: rgba(255,255,255,1);
      border: none;
-     /* border-bottom: 3px solid black; */
      z-index: 9999;
      margin-left: 30%;
     margin-top: 275px;
@@ -48,13 +47,13 @@
          document.body.style.backgroundColor ='#ef3249'
 
       }
-      else if(ranking/30 *100>=50 && ranking/30 *100<70){
+      else if(ranking/30 *100>=50 && ranking/30 *100<90){
         opacity = 1
         background = "#FFBF00"
         document.body.style.backgroundColor ='#FFBF00'
 
       }
-      else if(ranking/30 *100>=70 ){
+      else if(ranking/30 *100>=90 ){
         opacity = 1
         background = '#51d097'
         document.body.style.backgroundColor ='#51d097'
@@ -108,7 +107,7 @@
         background: [{ // Track for Move
           outerRadius: '100%',
           innerRadius: '80%',
-          backgroundColor: '#f7f3f3',
+          backgroundColor:'#f7f3f3',
           borderWidth: 10,
           shape: 'arc'
         }],
